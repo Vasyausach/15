@@ -1,5 +1,3 @@
-"use strict";
-
 let path = require("path");
 
 
@@ -35,7 +33,8 @@ module.exports = {
                   }
                 }
               ]
-            ]
+            ],
+            "plugins": ["es6-promise"]
           }
         }
       }
